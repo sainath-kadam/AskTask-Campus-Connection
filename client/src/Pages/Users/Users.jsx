@@ -8,7 +8,7 @@ const Users = ({ slideIn, handleSlideIn }) => {
   return (
     <div className="home-container-1">
       <LeftSidebar slideIn={slideIn} handleSlideIn={handleSlideIn} />
-      <div className="home-container-2" style={{ marginTop: "30px" }}>
+      <div className="home-container-2" style={{ marginTop: "3%" }}>
         <h1 style={{ fontWeight: "400" }}>Users</h1>
         <UsersList />
       </div>

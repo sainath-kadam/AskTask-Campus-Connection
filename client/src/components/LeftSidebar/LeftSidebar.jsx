@@ -34,7 +34,7 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
               activeclassname="active"
             >
               <img src={Globe} alt="Globe" />
-              <p style={{ paddingLeft: "10px" }}> Questions </p>
+              <p style={{ paddingLeft: "1px" }}> Questions </p>
             </NavLink>
           </button>
           <button onClick={() => handleSlideIn()} className="nav-btn">

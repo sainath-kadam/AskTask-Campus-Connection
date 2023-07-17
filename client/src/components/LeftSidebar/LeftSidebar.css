@@ -1,12 +1,13 @@
 .left-sidebar {
-  width: 164px;
+  width: 150px;
   box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
   height: auto;
   min-height: 100vh;
   transition: box-shadow ease-in-out 0.1s, transform ease-in-out 0.1s;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 20px;
+  margin-top: 2.5%;
 }
 
 .nav-btn {
@@ -20,7 +21,7 @@
   height: auto;
   max-width: 100%;
   position: sticky;
-  margin: 50px 0px;
+  margin: 50px 20px;
   padding: 20px 0px;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .side-nav-div div {
-  padding-left: 10px;
+  padding-left: 1px;
 }
 
 .side-nav-links {

@@ -1,18 +1,18 @@
 .right-sidebar {
   float: right;
   width: 300px;
-  margin: 40px 0px 15px 24px;
+  margin: 40px 0px 30px 24px;
   font-size: 15px;
 }
 
 .widget {
-  margin-top: 10px;
+  margin-top: 30px;
   box-shadow: 3px 3px 10px rgb(0 0 0 / 5%), -3px -3px 10px rgb(0 0 0 / 5%);
 }
 
 .widget h4 {
   background-color: #fbf3d5;
-  margin: 0%;
+  margin: 0;
   padding: 15px;
   border: solid 1px #f1e5bc;
   font-size: 13px;
@@ -32,7 +32,7 @@
 
 .right-sidebar-div-1 .right-sidebar-div-2 p {
   padding-left: 10px;
-  margin-top: 0%;
+  margin-top: 0;
   font-size: 13px;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .widget-tags h4 {
-  margin: 0%;
+  margin: 0;
   padding: 15px;
   background-color: #f8f9f9;
   border: solid 1px #e3e6e8;
@@ -51,7 +51,7 @@
 
 .widget-tags-div {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
   border: solid 1px #e3e6e8;
@@ -69,5 +69,33 @@
 @media screen and (max-width: 1020px) {
   .right-sidebar {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-sidebar {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .widget,
+  .widget-tags {
+    margin-top: 20px;
+  }
+
+  .widget h4,
+  .widget-tags h4 {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .right-sidebar-div-1,
+  .widget-tags-div {
+    padding: 10px;
+  }
+
+  .right-sidebar-div-1 .right-sidebar-div-2 p,
+  .widget-tags-div p {
+    font-size: 12px;
   }
 }

@@ -1,5 +1,5 @@
 .main-nav {
-  min-height: 50px;
+  min-height: 70px;
   width: 100%;
   margin: 0% auto;
   border-top: solid 3px #ef8236;
@@ -8,7 +8,7 @@
   z-index: 15;
   top: 0%;
   left: 0%;
-  background-color: #f8f9f9;
+  background-color: #15cdcd;
   display: flex;
   justify-content: center;
   align-items: center;
