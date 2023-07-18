@@ -1,0 +1,115 @@
+.footer {
+    background: #13131a;
+    text-align: center;
+    padding: 1rem 0rem;
+    height: 15rem;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .tagline {
+    position: absolute;
+    left: 2rem;
+    top: 10rem;
+
+    color: #fff;
+    font-style:Times New Roman;
+    font-size: 1rem;
+    font-weight: lighter;
+    
+  }
+  .footer .tagline span {
+    color: #ffc107;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .tagline {
+      font-size: 0.6rem;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  
+  .footer .credit {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: lighter;
+  }
+  
+  .footer .credit span {
+    color: #ffc107;
+  }
+  
+  .footer .contact-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-right: 2%;
+  }
+  
+  .footer .contact-form h3 {
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .footer .contact-form form {
+    width: 50%;
+  }
+  
+  .footer .contact-form label {
+    margin-top: 0.5rem;
+    color: #fff;
+  }
+  
+  .footer .contact-form input,
+  .footer .contact-form textarea {
+    margin-top: 0.3rem;
+    width: 85%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #fff;
+    background-color: #13131a;
+  }
+  
+  
+  .footer .contact-form input:focus,
+  .footer .contact-form textarea:focus {
+    border: 2px solid #00ce9e;
+  }
+  
+  .footer .contact-form input[type="submit"] {
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: #f9690e;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 768px) {
+    .footer .contact-form {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0.05rem;
+    width: 90%;
+    padding: 0.5rem;
+    font-size: .50rem;
+    border-radius: 0.2rem;
+    border: .5px solid #ccc;
+
+    }
+  
+    .footer .contact-form form {
+      width: 100%;
+    }
+  }
+  
