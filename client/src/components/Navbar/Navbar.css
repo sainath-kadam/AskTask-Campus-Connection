@@ -55,8 +55,8 @@
 
 .nav-item {
   margin: 0 3px;
-  font-size: 8px;
-  font-weight: 300;
+  font-size: 13px;
+  font-weight: 500;
   text-decoration: none;
   color: #454545;
   transition: 0.2s;
@@ -66,7 +66,7 @@
   cursor: pointer;
   border-radius: 20px;
   padding: 10px 20px;
-  height: 30px;
+  height: 40px;
 }
 
 .nav-item:hover,
@@ -115,17 +115,14 @@
   margin-right: 10px;
 }
 
-.navbar-2 .menu-items {
-  padding: 7px 13px;
-  border: 1px solid blue;
-  border-radius: 3px;
-  background-color: #e7f8fe;
-  cursor: pointer;
-  transition: 0.2s;
+.navbar-2 .logout-btn {
+  margin-left: 10px;
+  background-color: #f06d0e;
+  color: white;
 }
 
-.navbar-2 .menu-items:hover {
-  background-color: #d3e4eb;
+.navbar-2 .logout-btn:hover {
+  background-color: #e26d0e;
 }
 
 @media screen and (max-width: 1120px) {
@@ -145,3 +142,4 @@
     display: none;
   }
 }
+
