@@ -1,13 +1,13 @@
 .main-nav {
   min-height: 70px;
   width: 100%;
-  margin: 0% auto;
+  margin: 0 auto;
   border-top: solid 3px #ef8236;
   box-shadow: 0px 1px 5px #00000033;
   position: fixed;
   z-index: 15;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   background-color: #15cdcd;
   display: flex;
   justify-content: center;
@@ -32,13 +32,14 @@
   cursor: pointer;
 }
 
-.navbar .navbar-1 {
+.navbar-1 {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  margin-right: 10px;
 }
 
-.navbar .navbar-2 {
+.navbar-2 {
   display: flex;
   align-items: center;
 }
@@ -47,12 +48,17 @@
   padding: 5px 25px;
 }
 
+.nav-logo img {
+  max-height: 60px;
+  object-fit: contain;
+}
+
 .nav-item {
-  margin: 0px 3px;
-  font-size: small;
+  margin: 0 3px;
+  font-size: 13px;
   font-weight: 500;
   text-decoration: none;
-  color: rgb(69, 69, 69);
+  color: #454545;
   transition: 0.2s;
 }
 
@@ -60,37 +66,42 @@
   cursor: pointer;
   border-radius: 20px;
   padding: 10px 20px;
+  height: 40px;
 }
 
 .nav-item:hover,
 .slide-in-icon:hover {
-  background-color: rgb(226, 226, 226);
+  background-color: #e2e2e2;
 }
 
-.navbar .navbar-1 form {
+.navbar-1 form {
   flex-grow: 1;
-  padding: 0px 12px;
+  padding: 0 12px;
   position: relative;
 }
 
-.navbar .navbar-1 form input {
+.navbar-1 form input {
   min-width: 90%;
   margin: 0;
   padding: 8px 10px 8px 32px;
   font-size: 13px;
-  border: solid 1px #0000003e;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 3px;
 }
 
-.navbar .navbar-1 form .search-icon {
+.navbar-1 form .search-icon {
   position: absolute;
   left: 25px;
   top: 8px;
 }
 
+.navbar-1 .nav-item {
+  margin-right: 8px;
+}
+
 .nav-links {
   padding: 7px 13px;
-  border: solid 1px blue;
+  border: 1px solid blue;
   border-radius: 3px;
   background-color: #e7f8fe;
   cursor: pointer;
@@ -101,7 +112,7 @@
 }
 
 @media screen and (max-width: 1120px) {
-  .navbar .navbar-1 form {
+  .navbar-1 form {
     display: none;
   }
 }
@@ -113,7 +124,7 @@
 }
 
 @media screen and (max-width: 620px) {
-  .navbar .navbar-1 .res-nav {
+  .navbar-1 .res-nav {
     display: none;
   }
 }
