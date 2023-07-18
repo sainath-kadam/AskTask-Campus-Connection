@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import AllRoutes from "./AllRoutes";
 import { fetchAllQuestions } from "./actions/question";
 import { fetchAllUsers } from "./actions/users";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const dispatch = useDispatch();
@@ -34,6 +35,8 @@ function App() {
       <Router>
         <Navbar handleSlideIn={handleSlideIn} />
         <AllRoutes slideIn={slideIn} handleSlideIn={handleSlideIn} />
+        <Footer handleSlideIn={handleSlideIn} />
+
       </Router>
     </div>
   );
