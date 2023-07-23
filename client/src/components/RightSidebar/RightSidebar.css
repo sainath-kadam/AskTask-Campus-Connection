@@ -11,7 +11,7 @@
 }
 
 .widget h4 {
-  background-color: #f4ca0e;
+  background-color: #48bef9;
   margin: 0;
   padding: 15px;
   border: solid 1px black;
@@ -19,7 +19,7 @@
 }
 
 .right-sidebar-div-1 {
-  background-color: #baf7f4;
+  background-color: #f9f3d2;
   padding: 15px;
   border: solid 1px black;
 }
@@ -60,8 +60,8 @@
 
 .widget-tags-div p {
   padding: 5px;
-  background-color: #e1ecf4;
-  color: #39739d;
+  background-color: #7cd3fe;
+  color: black;
   border-radius: 2px;
   font-size: 13px;
 }

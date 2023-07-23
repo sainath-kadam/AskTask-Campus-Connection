@@ -51,7 +51,7 @@
   font-weight: bolder;
   color: black;
   background-color: rgb(225, 225, 225);
-  border-right: solid 3px #ef8236;
+  border-right: solid 3px #a236ef;
 }
 
 @media screen and (max-width: 760px) {

@@ -2,13 +2,13 @@
   min-height: 70px;
   width: 100%;
   margin: 0 auto;
-  border-top: solid 3px #ef8236;
+  border-top: solid 3px #9d00ff;
   box-shadow: 0px 1px 5px #00000033;
   position: fixed;
   z-index: 15;
   top: 0;
   left: 0;
-  background-color: #15cdcd;
+  background: linear-gradient(to right, #48bef9, #f5a038); /* Gradient background color for the navbar */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,15 +100,29 @@
 }
 
 .nav-links {
-  padding: 7px 13px;
-  border: 1px solid blue;
-  border-radius: 3px;
-  background-color: #e7f8fe;
+  padding: 10px 20px;
+  border: 2px solid #fefefe; /* Red border color */
+  border-radius: 5px;
+  background-color: #009dff; /* Red background color */
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.3s;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links:hover {
-  background-color: #d3e4eb;
+  background-color: #057201; /* Slightly darker red on hover */
+  border-color: #fefefe;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-2 .avatar {
@@ -117,7 +131,7 @@
 
 .navbar-2 .logout-btn {
   margin-left: 10px;
-  background-color: #f06d0e;
+  background-color: #990ef0;
   color: white;
 }
 
