@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import Questions from "../models/Questions.js";
-
 export const postAnswer = async (req, res) => {
   const { id: _id } = req.params;
   const { noOfAnswers, answerBody, userAnswered } = req.body;
@@ -8,7 +7,6 @@ export const postAnswer = async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(_id)) {
     return res.status(404).send("question unavailable...");
   }
-
   updateNoOfQuestions(_id, noOfAnswers);
   try {
     const updatedQuestion = await Questions.findByIdAndUpdate(_id, {
@@ -19,7 +17,6 @@ export const postAnswer = async (req, res) => {
     res.status(400).json("error in updating");
   }
 };
-
 const updateNoOfQuestions = async (_id, noOfAnswers) => {
   try {
     await Questions.findByIdAndUpdate(_id, {
@@ -29,7 +26,6 @@ const updateNoOfQuestions = async (_id, noOfAnswers) => {
     console.log(error);
   }
 };
-
 export const deleteAnswer = async (req, res) => {
   const { id: _id } = req.params;
   const { answerId, noOfAnswers } = req.body;
