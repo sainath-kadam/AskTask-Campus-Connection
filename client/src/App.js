@@ -7,10 +7,9 @@ import AllRoutes from "./AllRoutes";
 import { fetchAllQuestions } from "./actions/question";
 import { fetchAllUsers } from "./actions/users";
 import Footer from "./components/Footer/Footer";
-
 function App() {
   const dispatch = useDispatch();
-
+  
   useEffect(() => {
     dispatch(fetchAllQuestions());
     dispatch(fetchAllUsers());
@@ -23,20 +22,17 @@ function App() {
       setSlideIn(false);
     }
   }, []);
-
   const handleSlideIn = () => {
     if (window.innerWidth <= 760) {
       setSlideIn((state) => !state);
     }
   };
-
   return (
     <div className="App">
       <Router>
         <Navbar handleSlideIn={handleSlideIn} />
         <AllRoutes slideIn={slideIn} handleSlideIn={handleSlideIn} />
         <Footer handleSlideIn={handleSlideIn} />
-
       </Router>
     </div>
   );

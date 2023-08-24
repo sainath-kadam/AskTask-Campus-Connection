@@ -13,7 +13,6 @@ export const AskQuestion = async (req, res) => {
     res.status(409).json("Couldn't post a new question");
   }
 };
-
 export const getAllQuestions = async (req, res) => {
   try {
     const questionList = await Questions.find().sort({ askedOn: -1 });

@@ -75,7 +75,6 @@ const Navbar = ({ handleSlideIn }) => {
       );
     }
   };
-
   return (
     <nav className="main-nav">
       <div className="navbar">
@@ -92,5 +91,4 @@ const Navbar = ({ handleSlideIn }) => {
     </nav>
   );
 };
-
 export default Navbar;

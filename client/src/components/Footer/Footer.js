@@ -4,10 +4,8 @@ import "./Footer.css";
 
 const Footer = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_if1i5xw",

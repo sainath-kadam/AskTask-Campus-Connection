@@ -14,5 +14,4 @@ const DisplayQuestion = ({ slideIn, handleSlideIn }) => {
     </div>
   );
 };
-
 export default DisplayQuestion;
