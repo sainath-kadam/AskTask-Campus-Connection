@@ -2,11 +2,11 @@
   float: right;
   width: 300px;
   margin: 40px 0px 30px 24px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .widget {
-  margin-top: 30px;
+  margin-top: 20px;
   box-shadow: 3px 3px 10px rgb(0 0 0 / 5%), -3px -3px 10px rgb(0 0 0 / 5%);
 }
 
@@ -19,7 +19,7 @@
 }
 
 .right-sidebar-div-1 {
-  background-color: #baf7f4;
+  background-color: #3AAFA9;
   padding: 15px;
   border: solid 1px black;
 }
