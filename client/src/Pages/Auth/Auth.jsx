@@ -6,6 +6,7 @@ import "./Auth.css";
 import icon from "../../assets/icon.png";
 import AboutAuth from "./AboutAuth";
 import { signup, login } from "../../actions/auth";
+
 const Auth = () => {
   const [isSignup, setIsSignup] = useState(false);
   const [name, setName] = useState("");
@@ -24,12 +25,23 @@ const Auth = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!email && !password) {
+
+    if (!email || !password) {
       alert("Enter email and password");
+      return;
     }
+
+    // Check if email ends with "@iiitt.ac.in"
+    const validEmailPattern = /@iiitt\.ac\.in$/;
+    if (!validEmailPattern.test(email)) {
+      alert("Please use a valid IIITT email address");
+      return;
+    }
+
     if (isSignup) {
       if (!name) {
         alert("Enter a name to continue");
+        return;
       }
       dispatch(signup({ name, email, password }, navigate));
     } else {

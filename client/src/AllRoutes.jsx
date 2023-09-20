@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-
 import Home from "./Pages/Home/Home";
 import Auth from "./Pages/Auth/Auth";
 import Questions from "./Pages/Questions/Questions";
@@ -9,7 +8,15 @@ import DisplayQuestion from "./Pages/Questions/DisplayQuestion";
 import Tags from "./Pages/Tags/Tags";
 import Users from "./Pages/Users/Users";
 import UserProfile from "./Pages/UserProfile/UserProfile";
-
+import Imp_Q_A from "./Pages/Imp_Q_A/Imp_Q_A";
+import RquestionsSet from "../src/Pages/Imp_Q_A/Questionset/RquestionsSet";
+import NquestionsSet from "../src/Pages/Imp_Q_A/Questionset/NquestionsSet" ;
+import EquestionsSet from "../src/Pages/Imp_Q_A/Questionset/EquestionsSet" ;
+import MquestionsSet from "../src/Pages/Imp_Q_A/Questionset/MquestionsSet" ;
+import MlquestionsSet from "../src/Pages/Imp_Q_A/Questionset/MquestionsSet" ;
+import CssquestionsSet from "../src/Pages/Imp_Q_A/Questionset/MlquestionsSet" ;
+import CppquestionsSet from "../src/Pages/Imp_Q_A/Questionset/CssquestionsSet" ;
+import DsaquestionsSet from "../src/Pages/Imp_Q_A/Questionset/DsaquestionsSet" ;
 
 const AllRoutes = ({ slideIn, handleSlideIn }) => {
   return (
@@ -24,6 +31,18 @@ const AllRoutes = ({ slideIn, handleSlideIn }) => {
         path="/Questions"
         element={<Questions slideIn={slideIn} handleSlideIn={handleSlideIn} />}
       />
+      <Route
+        path="/Imp_Q_A"
+        element={<Imp_Q_A slideIn={slideIn} handleSlideIn={handleSlideIn} />}
+      />
+      <Route path="/RquestionsSet" element={<RquestionsSet />} />
+      <Route path="/NquestionsSet" element={<NquestionsSet />} />
+      <Route path="/EquestionsSet" element={<EquestionsSet />} />
+      <Route path="/MquestionsSet" element={<MquestionsSet />} />
+      <Route path="/MlquestionsSet" element={<MlquestionsSet />} />
+      <Route path="/CssquestionsSet" element={<CssquestionsSet />} />
+      <Route path="/CppquestionsSet" element={<CppquestionsSet />} />
+      <Route path="/DsaquestionsSet" element={<DsaquestionsSet />} />
       <Route
         path="/Questions/:id"
         element={

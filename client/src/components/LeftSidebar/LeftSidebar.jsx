@@ -57,6 +57,16 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
               <p>Users</p>
             </NavLink>
           </button>
+          <button onClick={() => handleSlideIn()} className="nav-btn">
+            <NavLink
+              to="/Imp_Q_A"
+              className="side-nav-links"
+              activeclassname="active"
+              style={{ paddingLeft: "40px" }}
+            >
+              <p>Imp_Q_A</p>
+            </NavLink>
+          </button>
         </div>
       </nav>
     </div>

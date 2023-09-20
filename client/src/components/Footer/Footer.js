@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <br />
       <div className="credit">
-        By <span>Sainath Kadam</span> || rights reserved
+        By <span>Sainath Kadam & his Team</span> || some rights reserved
       </div>
       <div className="contact-form">
         <form ref={form} onSubmit={sendEmail}>

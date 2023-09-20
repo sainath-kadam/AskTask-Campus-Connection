@@ -2,7 +2,7 @@ import React from "react";
 import "./RightSidebar.css";
 import comment from "../../assets/comment-alt-solid.svg";
 import pen from "../../assets/pen-solid.svg";
-import blackLogo from "../../assets/blacklogo.svg";
+import icon from "../../assets/icon.png";
 
 const Widget = () => {
   return (
@@ -34,7 +34,7 @@ const Widget = () => {
           </p>
         </div>
         <div className="right-sidebar-div-2">
-          <img src={blackLogo} alt="pen" width="18" />
+          <img src={icon} alt="pen" width="30" />
           <p>
             New feature: Enhanced search functionality for better question and
             answer discovery

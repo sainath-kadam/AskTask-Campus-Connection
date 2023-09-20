@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "sainath kadam",
+  "author": "sainath kadam and his Team",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
