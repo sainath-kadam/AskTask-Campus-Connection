@@ -1,7 +1,15 @@
-import menuImage1 from "../../assets/logo.png";
+import Image1 from "../../assets/images/1.png";
+import Image2 from "../../assets/images/2.png";
+import Image3 from "../../assets/images/3.png";
+import Image4 from "../../assets/images/4.png";
+import Image5 from "../../assets/images/5.png";
+import Image6 from "../../assets/images/6.png";
+import Image7 from "../../assets/images/7.png";
+import Image8 from "../../assets/images/8.png";
+
 const menu = [
   {
-    img: menuImage1,
+    img: Image1,
     trend: '4/5',
     title: 'React',
     disc:"React is a popular JavaScript library for building dynamic and responsive user interfaces.",
@@ -13,7 +21,7 @@ const menu = [
 
 
   {
-    img: '',
+    img: Image2,
     trend: '4.5/5',
     title: 'NodeJS',
     disc:"Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to build.",
@@ -24,7 +32,7 @@ const menu = [
     }
   },
   {
-    img: '',
+    img: Image3,
     trend: '3.5/5',
     title: 'Express',
     disc:"Express is a popular and minimalist web framework for Node.js designed for building efficient server-side applications.",
@@ -35,7 +43,7 @@ const menu = [
     }
   },
   {
-    img: '',
+    img: Image4,
     trend: '5/5',
     title: 'MongoDB',
     disc:'MongoDB is a document-oriented NoSQL database. MongoDB uses a flexible and scalable data model, making it well-suited.',
@@ -46,7 +54,7 @@ const menu = [
     }
   },
   {
-    img: '',
+    img: Image5,
     trend: '4.8/5',
     title: 'ML ',
     disc:"Machine Learning is a field of artificial intelligence that focuses on the development of algorithms and statistical models",
@@ -57,7 +65,7 @@ const menu = [
     }
   },
   {
-    img: '',
+    img: Image6,
     trend: '3/5',
     title: 'CSS',
     disc: "CSS stands for Cascading Style Sheets and is a styling language used for describing the presentation of a document written in HTML or XML.",
@@ -68,7 +76,7 @@ const menu = [
     }
   },
   {
-    img: '',
+    img: Image8,
     trend: '4/5',
     title: 'Cpp',
     disc: "C++ is a high-level programming language with object-oriented features, designed for efficient system and application programming.",
@@ -79,7 +87,7 @@ const menu = [
     }
   },
   {
-    img: '',
+    img: Image7,
     trend: '5/5',
     title: 'DSA',
     disc: "DSA stands for Data Structures and Algorithms, which are fundamental concepts in computer science for efficient data organization and manipulation.",

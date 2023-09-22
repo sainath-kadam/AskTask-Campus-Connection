@@ -1,48 +1,82 @@
-
 .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: .1rem;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.menu .box-container .box {
+  padding: 1rem;
+  height: auto;
+  text-align: center;
+  background: black;
+  border-radius: 1rem;
+}
+
+.menu .box-container .box img {
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.menu .box-container .box h3 {
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.menu .box-container .box p {
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+.menu .box-container .box .trend {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.menu .box-container .box .trend span {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.menu .box-container .box:hover {
+  background: green;
+  transition: 0.5s;
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+  .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
   
   .menu .box-container .box {
-    padding: 1rem;
-    text-align: center;
-    background: black;
-    border-radius: 1.5rem;
-    /* border: 0.2rem solid #30ff07; */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
   }
   
   .menu .box-container .box img {
-    height: 2rem;
-    border-radius: 50%;
+    height: 3rem;
   }
   
   .menu .box-container .box h3 {
-    color: #fff;
-    font-size: 2rem;
-    padding: 1rem 0;
+    font-size: 0.8rem;
+    padding: 0.2rem 0;
   }
+  
   .menu .box-container .box p {
-    color: #fff;
-    font-size: 1rem;
-    padding: 1rem 0;
+    font-size: 0.8rem;
+    padding: 0.2rem 0;
   }
   
   .menu .box-container .box .trend {
-    color: #fff;
-    font-size: 1.5rem;
-    padding: 0.5rem 0;
+    font-size: 1rem;
+    padding: 0.3rem 0;
   }
-  
-  .menu .box-container .box .trend span {
-    font-size: 1.5rem;
-    text-decoration: line-through;
-    font-weight: lighter;
-  }
-  
-  .menu .box-container .box:hover {
-    background: green;
-    transition: 0.5s;
-  }
-  
+}

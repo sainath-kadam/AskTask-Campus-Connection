@@ -8,7 +8,6 @@ const Imp_Q_A = ({ slideIn, handleSlideIn }) => {
     <div className="home-container-1">
       <LeftSidebar slideIn={slideIn} handleSlideIn={handleSlideIn} />
       <div className="home-container">
-      <h1>hlo</h1>
        <Card/>
       </div>
     </div>

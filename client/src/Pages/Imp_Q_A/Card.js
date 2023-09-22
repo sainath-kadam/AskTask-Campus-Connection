@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
 import { menu } from "./Data";
 import CardStyle from './CardStyle.css';
-import LeftSidebar from "../../components/LeftSidebar/LeftSidebar";
 const Card = () => {
   return (
     <>
    
       <section className="menu" id="menu">
         <h1 className="heading">
-          <span>Prepare yourself for the Interview</span>
         </h1>
 
         <div className="box-container">
