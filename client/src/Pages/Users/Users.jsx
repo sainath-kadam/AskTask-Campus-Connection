@@ -3,7 +3,6 @@ import React from "react";
 import "./Users.css";
 import LeftSidebar from "../../components/LeftSidebar/LeftSidebar";
 import UsersList from "./UsersList";
-
 const Users = ({ slideIn, handleSlideIn }) => {
   return (
     <div className="home-container-1">
@@ -15,5 +14,4 @@ const Users = ({ slideIn, handleSlideIn }) => {
     </div>
   );
 };
-
 export default Users;

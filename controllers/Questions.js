@@ -1,6 +1,5 @@
 import Questions from "../models/Questions.js";
 import mongoose from "mongoose";
-
 export const AskQuestion = async (req, res) => {
   const postQuestionData = req.body;
   const userId = req.userId;
@@ -36,7 +35,6 @@ export const deleteQuestion = async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 };
-
 export const voteQuestion = async (req, res) => {
   const { id: _id } = req.params;
   const { value } = req.body;

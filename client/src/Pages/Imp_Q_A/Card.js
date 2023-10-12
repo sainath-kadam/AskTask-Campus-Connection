@@ -3,12 +3,10 @@ import { menu } from "./Data";
 import CardStyle from './CardStyle.css';
 const Card = () => {
   return (
-    <>
-   
+    <>  
       <section className="menu" id="menu">
         <h1 className="heading">
         </h1>
-
         <div className="box-container">
           {menu.map((item, index) => (
             <div className="box" key={index * Math.random()}>

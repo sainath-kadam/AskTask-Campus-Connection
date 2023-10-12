@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./Footer.css";
-
 const Footer = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -46,5 +45,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;

@@ -12,29 +12,29 @@
   padding: 1rem;
   height: auto;
   text-align: center;
-  background: black;
+  background: white;
   border-radius: 1rem;
 }
 
 .menu .box-container .box img {
   height: 8rem;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .menu .box-container .box h3 {
-  color: #fff;
+  color: black;
   font-size: 1rem;
   padding: 0.5rem 0;
 }
 
 .menu .box-container .box p {
-  color: #fff;
+  color: black;
   font-size: 1rem;
   padding: 0.5rem 0;
 }
 
 .menu .box-container .box .trend {
-  color: #fff;
+  color: black;
   font-size: 1.2rem;
   padding: 0.5rem 0;
 }
@@ -46,7 +46,7 @@
 }
 
 .menu .box-container .box:hover {
-  background: green;
+  background:#3AAFA9 ;
   transition: 0.5s;
 }
 

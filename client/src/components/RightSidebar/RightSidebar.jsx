@@ -11,5 +11,4 @@ const RightSidebar = () => {
     </aside>
   );
 };
-
 export default RightSidebar;
