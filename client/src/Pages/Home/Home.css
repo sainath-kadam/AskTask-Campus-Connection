@@ -1,0 +1,94 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    padding-top: 7%;
+  }
+  
+  .banner {
+    background-image: url('https://i.ibb.co/W62rmSq/tamanna-rumee-Ft-JEat-S7-Q4-unsplash.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    animation: fadeIn 2.5s ease-in-out; 
+  }
+  
+  
+  .banner h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .article { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    animation: fadeIn 5s ease-in-out; 
+  }
+  
+  .article-content {
+    flex: 1;
+    background-color: #f4f4f4; /* Add a background color to create a box */
+    padding: 20px; /* Add padding for spacing within the box */
+    border-radius: 2%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  }
+  
+  .article-content h2 {
+    font-size:20px;
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Change text color for better readability */
+    text-decoration: underline; /* Add an underline for emphasis */
+  }
+  
+  .article-image {
+    margin-left: 2%;
+    margin-right: 2%;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .article-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Media Query for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .homepage {
+      padding-top: 20%;
+    }
+    .banner h1 {
+      font-size: 28px;
+    }
+    .article {
+      flex-direction: column;
+      padding: 10px;
+    }
+    .article-content, .article-image {
+      flex: none;
+      width: 100%;
+    }
+  }
+  
+  /* Media Query for screens smaller than 480px */
+  @media (max-width: 480px) {
+    .banner h1 {
+      font-size: 24px;
+    }
+    .article-content h2 {
+      font-size: 20px;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

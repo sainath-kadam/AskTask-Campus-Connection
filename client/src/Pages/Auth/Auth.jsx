@@ -30,14 +30,12 @@ const Auth = () => {
       alert("Enter email and password");
       return;
     }
-
     // Check if email ends with "@iiitt.ac.in"
     const validEmailPattern = /@iiitt\.ac\.in$/;
     if (!validEmailPattern.test(email)) {
       alert("Please use a valid IIITT email address");
       return;
     }
-
     if (isSignup) {
       if (!name) {
         alert("Enter a name to continue");

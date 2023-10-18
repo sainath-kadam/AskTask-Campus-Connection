@@ -1,20 +1,18 @@
 .footer {
-    background: #272c32;
+    background:#3AAFA9 ;
     text-align: center;
     padding: 1rem 0rem;
     height: 15rem;
     position: relative;
     margin-bottom: 1rem;
+    font-weight: bold;
   }
   .tagline {
     position: absolute;
     left: 2rem;
     top: 10rem;
-
     color: #fff;
-    font-style:Times New Roman;
     font-size: 1rem;
-    font-weight: lighter;
     
   }
   .footer .tagline span {

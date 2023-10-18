@@ -14,11 +14,9 @@ import {
   deleteQuestion,
   voteQuestion,
 } from "../../actions/question";
-
 const QuestionsDetails = () => {
   const { id } = useParams();
   const questionsList = useSelector((state) => state.questionsReducer);
-
   const [Answer, setAnswer] = useState("");
   const Navigate = useNavigate();
   const dispatch = useDispatch();
