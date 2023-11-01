@@ -43,13 +43,13 @@
 .review-btn {
   margin: 50px 0px;
   padding: 10px;
-  background-color: #009dff;
-  border: solid 1px #009dff;
+  background-color: #f9690e;
+  border: solid 1px #f9690e;
   color: white;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
 }
 .review-btn:hover {
-  background-color: #0086d8;
+  background-color: #3AAFA9;
 }

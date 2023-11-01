@@ -18,7 +18,7 @@
 .main-bar-header .ask-btn {
   padding: 10px 15px;
   border-radius: 4px;
-  background-color: #009dff;
+  background-color: #f9690e;
   color: white;
   border: none;
   text-decoration: none;
@@ -26,7 +26,7 @@
 }
 
 .main-bar-header .ask-btn:hover {
-  background-color: #0086d8;
+  background-color: #3AAFA9;
 }
 
 .display-question-container {
@@ -34,7 +34,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: #3AAFA9;
   border-bottom: solid 1px #edeff0;
 }
 
@@ -54,13 +54,15 @@
 }
 
 .question-title-link {
+  font-weight: bold;
   text-decoration: none;
-  color: #037ecb;
+  color: black;
   transition: 0.3s;
 }
 
 .question-title-link:hover {
-  color: #009dff;
+  color:#f4ca0e ;
+  
 }
 
 .display-tags-time .display-tags {
@@ -79,8 +81,9 @@
   margin: 2px;
   padding: 4px;
   font-size: 13px;
-  background-color: #edeff0;
-  color: #39739d;
+  /* background-color: #edeff0; */
+  color:black; 
+  
 }
 .display-tags-time .display-time {
   font-size: 13px;

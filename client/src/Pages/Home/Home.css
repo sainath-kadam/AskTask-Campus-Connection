@@ -2,7 +2,6 @@
     font-family: Arial, sans-serif;
     padding-top: 7%;
   }
-  
   .banner {
     background-image: url('https://i.ibb.co/W62rmSq/tamanna-rumee-Ft-JEat-S7-Q4-unsplash.jpg');
     background-size: cover; 
@@ -11,7 +10,12 @@
     color: black;
     text-align: center;
     padding: 40px;
-    animation: fadeIn 2.5s ease-in-out; 
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
   }
   
   

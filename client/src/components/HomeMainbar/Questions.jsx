@@ -24,6 +24,7 @@ const Questions = ({ question }) => {
         <div className="display-tags-time">
           <div className="display-tags">
             {question.questionTags.map((tag) => (
+              
               <p key={tag}>{tag}</p>
             ))}
           </div>

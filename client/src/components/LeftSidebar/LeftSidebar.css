@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-size: 20px;
   margin-top: 2.5%;
+  border-left: solid 3px #ef8236;
 }
 
 .nav-btn {
@@ -51,7 +52,7 @@
   font-weight: bolder;
   color: black;
   background-color: rgb(225, 225, 225);
-  border-right: solid 3px #ef8236;
+  border-left: solid 3px #ef8236;
 }
 
 @media screen and (max-width: 760px) {

@@ -100,16 +100,16 @@
 .post-ans-container form .post-ans-btn {
   margin: 20px 0px;
   padding: 10px 10px;
-  background-color: #009dff;
+  background-color: #f9690e;
   color: white;
-  border: solid 1px #009dff;
+  border: solid 1px #f9690e;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.5s all;
 }
 
 .post-ans-container form .post-ans-btn:hover {
-  background-color: #0086d8;
+  background-color: #3AAFA9;
 }
 
 /* Display answer container */

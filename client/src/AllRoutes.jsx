@@ -46,8 +46,7 @@ const AllRoutes = ({ slideIn, handleSlideIn }) => {
         path="/Questions/:id"
         element={
           <DisplayQuestion slideIn={slideIn} handleSlideIn={handleSlideIn} />
-        }
-        
+        }      
       />
       <Route
         path="/Tags"
