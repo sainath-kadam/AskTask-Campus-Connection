@@ -13,58 +13,32 @@ const LeftSidebar = ({ slideIn, handleSlideIn }) => {
   };
 
   return (
-    <div
-      className="left-sidebar"
-      style={slideIn ? slideInStyle : slideOutStyle}
-    >
+    <div className="left-sidebar" style={slideIn ? slideInStyle : slideOutStyle}>
       <nav className="side-nav">
         <button onClick={() => handleSlideIn()} className="nav-btn">
-          <NavLink to="/" className="side-nav-links" activeclassname="active">
-            <p>Home</p>
+          <NavLink to="/" className="side-nav-links" activeClassName="active">
+            <p className="nav-text">Home</p>
           </NavLink>
         </button>
         <div className="side-nav-div">
-          <div>
-            <p>PUBLIC</p>
-          </div>
           <button onClick={() => handleSlideIn()} className="nav-btn">
-            <NavLink
-              to="/Questions"
-              className="side-nav-links"
-              activeclassname="active"
-            >
-              <img src={Globe} alt="Globe" />
-              <p style={{ paddingLeft: "1px" }}> Questions </p>
+            <NavLink to="/Questions" className="side-nav-links" activeClassName="active">
+              <p className="nav-text">Questions</p>
             </NavLink>
           </button>
           <button onClick={() => handleSlideIn()} className="nav-btn">
-            <NavLink
-              to="/Tags"
-              className="side-nav-links"
-              activeclassname="active"
-              style={{ paddingLeft: "40px" }}
-            >
-              <p>Tags</p>
+            <NavLink to="/Tags" className="side-nav-links" activeClassName="active">
+              <p className="nav-text">Tags</p>
             </NavLink>
           </button>
           <button onClick={() => handleSlideIn()} className="nav-btn">
-            <NavLink
-              to="/Users"
-              className="side-nav-links"
-              activeclassname="active"
-              style={{ paddingLeft: "40px" }}
-            >
-              <p>Users</p>
+            <NavLink to="/Users" className="side-nav-links" activeClassName="active">
+              <p className="nav-text">Users</p>
             </NavLink>
           </button>
           <button onClick={() => handleSlideIn()} className="nav-btn">
-            <NavLink
-              to="/Imp_Q_A"
-              className="side-nav-links"
-              activeclassname="active"
-              style={{ paddingLeft: "40px" }}
-            >
-              <p>Imp_Q_A</p>
+            <NavLink to="/Imp_Q_A" className="side-nav-links" activeClassName="active">
+              <p className="nav-text">Imp_Q_A</p>
             </NavLink>
           </button>
         </div>

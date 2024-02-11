@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 import users from "../models/auth.js";
-
 export const getAllUsers = async (req, res) => {
   try {
     const allUsers = await users.find();
@@ -19,7 +18,6 @@ export const getAllUsers = async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 };
-
 export const updateProfile = async (req, res) => {
   const { id: _id } = req.params;
   const { name, about, tags } = req.body;
@@ -27,7 +25,6 @@ export const updateProfile = async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(_id)) {
     return res.status(404).send("question unavailable...");
   }
-
   try {
     const updatedProfile = await users.findByIdAndUpdate(
       _id,

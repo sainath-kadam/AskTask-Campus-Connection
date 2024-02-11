@@ -26,10 +26,6 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="tagline">
-        <span>Unlock Knowledge,</span>
-        <br />Empower Growth: <span>AskTask</span>, Learn, Evolve
-      </div>
       <br />
       <div className="credit">
         By <span>Sainath Kadam & his Team</span> || some rights reserved

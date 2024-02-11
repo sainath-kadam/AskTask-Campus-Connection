@@ -1,21 +1,24 @@
 .left-sidebar {
-  width: 150px;
+  width: 120px;
   box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #3AAFA9;
   height: auto;
   min-height: 100vh;
   transition: box-shadow ease-in-out 0.1s, transform ease-in-out 0.1s;
   box-sizing: border-box;
-  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a professional font */
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold; /* Make font weight bold */
   margin-top: 2.5%;
   border-left: solid 3px #ef8236;
+  color: #fff; /* Set text color to white */
 }
 
 .nav-btn {
-  background-color: inherit;
+  background-color: transparent;
   width: 100%;
   border: none;
-  padding: 0%;
+  padding: 0;
 }
 
 .side-nav {
@@ -36,7 +39,7 @@
 
 .side-nav-links {
   text-decoration: none;
-  color: #3a3a3a;
+  color: #fff; /* Set text color to white */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -45,13 +48,13 @@
 }
 
 .side-nav-links:hover {
-  color: black;
+  color: #ffc107; /* Change hover color */
 }
 
 .active {
-  font-weight: bolder;
-  color: black;
-  background-color: rgb(225, 225, 225);
+  font-weight: bold;
+  color: #ffc107; /* Change active link color */
+  background-color: #272c32; /* Change active background color */
   border-left: solid 3px #ef8236;
 }
 
