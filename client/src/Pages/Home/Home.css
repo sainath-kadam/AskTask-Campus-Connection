@@ -3,36 +3,21 @@
   font-family: Arial, sans-serif;
   padding-top: 7%;
 }
-
 .banner {
-  background-image: url('https://i.ibb.co/W62rmSq/tamanna-rumee-Ft-JEat-S7-Q4-unsplash.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  color: black;
-  text-align: center;
-  padding: 80px;
-  animation: fadeIn 2.5s ease-in-out;
+  background-image: url('https://i.ibb.co/j5c9qby/web-1045994-1280.jpg'); /* Replace with the URL of your image */
+  background-size: cover; /* Cover the entire area of the banner */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 450px; /* Adjust the height of the banner as needed */
 }
 
-.banner img {
-  max-width: 100%;
-  height: auto;
-}
 
-.banner h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
+
 
 /* Media Query for screens smaller than 768px */
 @media (max-width: 768px) {
   .banner {
     padding: 40px;
-  }
-  .banner h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
   }
 }
 

@@ -1,26 +1,27 @@
 .box-container {
   padding-top: 5rem;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   padding-right: 5rem;
   padding-bottom: 5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 1rem;
+  gap: 1.5rem;
   height: min-content;
+  
 }
 
 .menu .box-container .box {
-  padding: .1rem;
+  padding: 0.2rem;
   height: auto;
   text-align: center;
   background: white;
   border-radius: 1rem;
+  border: 2px solid black; /* Add a black border to each card */
 }
 
 .menu .box-container .box img {
   height: 2rem;
   border-radius: 10%;
-  
 }
 
 .menu .box-container .box h3 {
@@ -48,7 +49,7 @@
 }
 
 .menu .box-container .box:hover {
-  background:#3AAFA9 ;
+  background: #3aafa9;
   transition: 0.5s;
 }
 
@@ -57,30 +58,30 @@
   .box-container {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
-  
+
   .menu .box-container .box {
     padding: 0.2rem;
     border-radius: 0.5rem;
   }
-  
+
   .menu .box-container .box img {
     height: 1rem;
   }
-  
+
   .menu .box-container .box h3 {
     font-size: 0.4rem;
     padding: 0.1rem 0;
   }
-  
+
   .menu .box-container .box p {
     font-size: 0.8rem;
     padding: 0.1rem 0;
   }
   .menu .box-container .box:hover {
-    background:#3AAFA9 ;
+    background: #3aafa9;
     transition: 0.5s;
   }
-  
+
   .menu .box-container .box .trend {
     font-size: 1rem;
     padding: 0.1rem 0;

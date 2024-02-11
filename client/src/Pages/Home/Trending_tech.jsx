@@ -4,7 +4,6 @@ import './Home.css';
 const TrendingTech = () => {
   return (
     <div className="trending-tech">
-      <h2>Trending Tech</h2>
       <div className="tech-container">
       <div className="tech">
   <h3>Software Engineer</h3>
